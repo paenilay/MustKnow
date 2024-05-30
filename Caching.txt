@@ -1,0 +1,65 @@
+1) client-side caching:
+
+- browser cache: stores css, js, images to reduce load time
+- service workers: enable offline access by caching response
+
+
+2) server-side caching:
+
+- page caching: cache the entire web page
+- fragment caching: cache page components like sidebars, navigation bar
+- object caching: cache expensive query results
+
+
+3) database caching:
+
+- query caching: cache db query results to reduce load
+- row level caching: cache popular rows to avoid repeated fetches
+
+
+4) application-level caching:
+
+- data caching: cache specific data points or entire datasets
+- computational caching: cache expensive computation results to avoid recalculation
+
+
+5) distributed caching:
+
+- spreads cache across many servers for scalability
+
+
+6) cdn:
+
+- store static files near users using edge servers for low latency
+
+
+7) cache replacement policies:
+
+- LRU: removes the least recently accessed items first
+- MRU: removes the most recently accessed items first
+- LFU: removes items that are accessed least often
+
+
+8) hierarchical caching:
+
+- caching at many levels (L1, L2 caches) for speed and capacity
+
+
+9) cache invalidation:
+
+- TTL: set expiry time
+- event based: invalidate based on events or conditions
+- manual: update cache using tools
+
+
+10) caching patterns:
+
+- write-through: data is written to the cache and the database at once
+- write-behind: data is written to the cache and asynchronously to database
+- write-around: data is written directly to the database, bypassing the cache
+
+
+Caching can improve the performance and scalability of your application. So use it carefully.
+
+Credit to Original Uploader Neo K.
+
